@@ -1,0 +1,135 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  .bg {
+    /* The image used */
+    /* background-image: url("img_girl.jpg"); */
+    background-image: url('../assets/bg_container.svg');
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/*  */
+
+/* Ellipse 1 */
+/*
+
+position: absolute;
+width: 2232.94px;
+height: 1119.82px;
+left: -942px;
+top: 1167.76px;
+
+background: linear-gradient(180deg, #83D1F3 0%, rgba(166, 206, 227, 0.19) 100%);
+mix-blend-mode: normal;
+transform: rotate(-62.73deg);
+*/
+
+
+.logo_{
+    /* scrum 1 */
+
+
+position: absolute;
+width: 97.54px;
+height: 100px;
+left: 92px;
+top: 35px;
+
+/* background: url(scrum.png); */
+}
+  .logo{
+      width: 80px;
+      height: 80px;
+      margin: 20px 10px 10px 0px;
+  }
+
+  /* Screen Title */
+
+.app_title{
+position: absolute;
+width: 221px;
+height: 76px;
+left: 105px;
+top: 11px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 59px;
+color: #FFFFFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+float: right;
+}
+.app_sub_title{
+position: absolute;
+width: 502px;
+height: 37px;
+left: 105px;
+top: 65px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 37px;
+color: rgba(136, 36, 96, 0.8);
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* AgileLogo2 1 */
+
+.agile_coverLogo{
+/* position: absolute;
+width: 654px;
+height: 397px;
+left: 740px;
+top: 16px;
+
+background: url(../assets/AgileLogo.svg); */
+}
+/*
+.card {
+    font-weight: 400;
+    border: 0;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,0.125);
+    border-radius: .25rem;
+}
+*/
+.card{
+    position: absolute;
+    /* width: 500px; */
+    width: 100%;
+    /* height: 337px; */
+    /* right: 105px; */
+    /* top: calc(50% - 488px/2 + 286px); */
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 18px;
+    margin-top: 50px;
+}
+.signInBtn{
+  height: 40px;
+  background: #1EB3F4;
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
+border-radius: 0;
+}
